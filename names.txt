@@ -12,8 +12,6 @@ Matthew C.
 Chris S
 Paul L.
 SJ McDonald
-Nick Jackson
-
 Evan R
 Joe
 Jasmine R.
@@ -44,3 +42,4 @@ Zuodong Wang
 Jun Sheng
 Jackson Boynton
 Alejandro G
+Nicholas Jackson
