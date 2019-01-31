@@ -1,2 +1,8 @@
+Chris S
+Paul L.
+SJ McDonald
 Evan R
-Zihan Zhou
+<<<<<<< HEAD
+=======
+Joe
+>>>>>>> 228f3b19a81d85ae4d3af4fe473ebeb3b83f3a2a
