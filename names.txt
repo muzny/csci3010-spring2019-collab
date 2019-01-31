@@ -1,6 +1,10 @@
 Mohamed Abdalla
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+Justin A.
+>>>>>>> 7b9dc6374eff2e07f4ec132c40445c0f67ef3ae4
 Matt P
 Thomas A
 SJ McDonald
@@ -14,7 +18,11 @@ Chris S
 Paul L.
 SJ McDonald
 Evan R
+Adam T.
 Joe
 Jasmine R.
 Justin Yun
-Jeffrey H
+<<<<<<< HEAD
+Adam T
+>>>>>>> 7b9dc6374eff2e07f4ec132c40445c0f67ef3ae4
+Jeff H
