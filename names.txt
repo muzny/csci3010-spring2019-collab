@@ -1,3 +1,9 @@
+Mohamed Abdalla
+Justin A.
+Matt P
+Thomas A
+SJ McDonald
+Evan R
 Felix M
 Xingyu Zhou
 Mohamed Abdalla
@@ -6,8 +12,13 @@ Chris S
 Paul L.
 SJ McDonald
 Evan R
+Adam T.
 Joe
 Jasmine R.
 Justin Yun
+<<<<<<< HEAD
 Nick V
 Garrett H
+=======
+Adam T
+>>>>>>> 7b9dc6374eff2e07f4ec132c40445c0f67ef3ae4
