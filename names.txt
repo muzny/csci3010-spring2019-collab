@@ -27,7 +27,6 @@ Adam T.
 Joe
 Jasmine R.
 Justin Yun
-<<<<<<< HEAD
 Nick V
 Garrett H
 Adam T
@@ -41,6 +40,4 @@ Zach T
 Anton M
 Zuodong Wang
 Jun Sheng
-=======
 Jackson Boynton
->>>>>>> 085a2b6ebd1ce8afc104d002f3afcead90c0b612
