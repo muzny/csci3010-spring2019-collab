@@ -1,9 +1,20 @@
 Mohamed Abdalla
+<<<<<<< HEAD
+=======
+Matt P
+Thomas A
+SJ McDonald
+Evan R
+Felix M
+Xingyu Zhou
+Mohamed Abdalla
+>>>>>>> f396e23ca5c335a8e591b0e06c2c3251d8d4c4fe
 Matthew C.
 Chris S
 Paul L.
 SJ McDonald
 Evan R
 Joe
+Jasmine R.
 Justin Yun
 Jeffrey H
