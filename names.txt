@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 Mohamed Abdalla
 =======
-
+Justin A.
 
 Matthew C.
 Chris S
@@ -10,4 +9,3 @@ SJ McDonald
 Evan R
 Joe
 Justin Yun
->>>>>>> ba3b7fed59ccbfca7fbfa7887efbbc061662e5c0
