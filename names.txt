@@ -1,5 +1,6 @@
+Harry A
+Paul L.
 Mohamed Abdalla
-Justin A.
 Matt P
 Thomas A
 SJ McDonald
@@ -14,22 +15,32 @@ SJ McDonald
 Nick Jackson
 
 Evan R
+Joe
+Jasmine R.
+Justin Yun
+Zihan Zhou
+ailee m
+Nick V
+Garrett H
+Dongyu Wu
+Adam T
+Hao Yuan
 Adam T.
 Joe
 Jasmine R.
 Justin Yun
+Nick V
+Garrett H
+Adam T
 bailee m
 Nick V
 Garrett H
 Adam T
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7b9dc6374eff2e07f4ec132c40445c0f67ef3ae4
 Jansen W
-=======
-=======
 Zach T
-
->>>>>>> a42e0a05e4a5237161e0d9f29789e144fc988271
-
->>>>>>> 4ad015a5d649f06c41f4e2c38ab519c803a8022a
+Zach T
+Anton M
+Zuodong Wang
+Jun Sheng
+Jackson Boynton
+Alejandro G
