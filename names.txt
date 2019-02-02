@@ -24,13 +24,18 @@ Jasmine R.
 Justin Yun
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Adam T
 >>>>>>> 7b9dc6374eff2e07f4ec132c40445c0f67ef3ae4
 =======
+=======
+bailee m
+>>>>>>> 4ad015a5d649f06c41f4e2c38ab519c803a8022a
 Nick V
 Garrett H
 =======
 Adam T
+<<<<<<< HEAD
 >>>>>>> 7b9dc6374eff2e07f4ec132c40445c0f67ef3ae4
 >>>>>>> 0f38c77817817595008119e9d4a8355399fca42f
 
@@ -38,3 +43,6 @@ Adam T
 
 
 Jeff H
+=======
+
+>>>>>>> 4ad015a5d649f06c41f4e2c38ab519c803a8022a
