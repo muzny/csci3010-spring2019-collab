@@ -2,15 +2,7 @@ Derek R.
 Harry A
 Paul L.
 Mohamed Abdalla
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 Justin A.
->>>>>>> 7b9dc6374eff2e07f4ec132c40445c0f67ef3ae4
-=======
->>>>>>> 49d8e7d7f89378d94210c634e5a7f7d44136e0d0
 Matt P
 Thomas A
 SJ McDonald
@@ -18,7 +10,6 @@ Evan R
 Felix M
 Xingyu Zhou
 Mohamed Abdalla
->>>>>>> f396e23ca5c335a8e591b0e06c2c3251d8d4c4fe
 Matthew C.
 Chris S
 Paul L.
@@ -38,37 +29,15 @@ Adam T.
 Joe
 Jasmine R.
 Justin Yun
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 Adam T
->>>>>>> 7b9dc6374eff2e07f4ec132c40445c0f67ef3ae4
-=======
-=======
-=======
 Nick V
 Garrett H
 Adam T
->>>>>>> 49d8e7d7f89378d94210c634e5a7f7d44136e0d0
 bailee m
->>>>>>> 4ad015a5d649f06c41f4e2c38ab519c803a8022a
 Nick V
 Garrett H
 Adam T
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7b9dc6374eff2e07f4ec132c40445c0f67ef3ae4
->>>>>>> 0f38c77817817595008119e9d4a8355399fca42f
-
-
-
-
 Jeff H
-=======
-
->>>>>>> 4ad015a5d649f06c41f4e2c38ab519c803a8022a
-=======
 Nick Z
 Jansen W
 Zach T
@@ -85,6 +54,5 @@ Hao Yuan
 Elizabeth Q
 William Anderson
 Allen K
->>>>>>> 49d8e7d7f89378d94210c634e5a7f7d44136e0d0
 Tyler Benson
 Jeff H
