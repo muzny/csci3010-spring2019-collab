@@ -18,5 +18,7 @@
 */
 //int Sum(int num1, int num2);
 
+//Sums all the numbers in a vector and returns the resulting value
+int Sum(std::vector<int> nums);
 
 #endif // _MANYFUNCTIONS_H_
