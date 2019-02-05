@@ -19,4 +19,6 @@
 //int Sum(int num1, int num2);
 
 
+std::vector<int> VectorTimesN(std::vector<int> v, int n);
+
 #endif // _MANYFUNCTIONS_H_
