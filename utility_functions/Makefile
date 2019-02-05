@@ -1,8 +1,8 @@
 CXX = g++
-CXXFLAGS	= -std=c++11 -Wall
+CXXFLAG	= -std=c++11 -Wall
 CXXGDB = -ggdb
 
-all: main
+all: test
 
 clean:
 	rm main ManyFunctions.o

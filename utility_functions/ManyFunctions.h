@@ -17,12 +17,7 @@
     @return the sum of the two numbers
 */
 //int Sum(int num1, int num2);
-/**
-    Removes first occurrence of string from another string
-    @param s1 First string
-    @param s2 Second string
-    @return The new string that's result of removing the first occurrence of s2 from s1
-*/
+
 std::string RemoveFirstSubstring(std::string s1, std::string s2);
 
 
