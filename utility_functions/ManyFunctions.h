@@ -4,6 +4,8 @@
 #include <vector>
 #include <string>
 
+using namespace std;
+
 // CSCI 3010 - Fall 2018
 // declare your function definitions here
 // they should not be inside of a class
@@ -18,5 +20,7 @@
 */
 //int Sum(int num1, int num2);
 
+
+vector<int> MultiplesFilter(vector<int> v, int divides_by);
 
 #endif // _MANYFUNCTIONS_H_
