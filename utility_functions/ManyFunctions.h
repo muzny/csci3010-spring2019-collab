@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <string>
+using namespace std;
 
 // CSCI 3010 - Fall 2018
 // declare your function definitions here
@@ -19,6 +20,6 @@
 //int Sum(int num1, int num2);
 
 //Sums all the numbers in a vector and returns the resulting value
-int Sum(std::vector<int> nums);
+int Sum(vector<int>);
 
 #endif // _MANYFUNCTIONS_H_
