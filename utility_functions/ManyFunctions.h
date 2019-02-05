@@ -18,5 +18,7 @@
 */
 //int Sum(int num1, int num2);
 
+std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
+
 
 #endif // _MANYFUNCTIONS_H_
