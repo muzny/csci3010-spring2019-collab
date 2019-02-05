@@ -19,4 +19,6 @@
 //int Sum(int num1, int num2);
 
 
+int Sign(int num);
+
 #endif // _MANYFUNCTIONS_H_
