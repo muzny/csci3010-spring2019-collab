@@ -2,5 +2,5 @@
 
 int RemoveTwos(int original)
 {
-    return RemoveTwos(original % 2);
+    return (original % 2 == 1) ? original : RemoveTwos(original / 2);
 }
