@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 
+
 // CSCI 3010 - Fall 2018
 // declare your function definitions here
 // they should not be inside of a class
@@ -17,6 +18,14 @@
     @return the sum of the two numbers
 */
 //int Sum(int num1, int num2);
+
+class ManyFunction {
+	public:
+		std::vector<string> Split(std::string word, std::string delimeter);
+	
+	private:
+		std::vector<string> words;
+}
 
 
 #endif // _MANYFUNCTIONS_H_
