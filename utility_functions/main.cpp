@@ -1,3 +1,8 @@
+/**
+    Jasmine R. Elizabeth Q. Allen K.
+    This program returns a string with the first instance of a string removed
+    from another string if present
+**/
 #include "ManyFunctions.h"
 #include <string>
 #include <vector>
