@@ -5,7 +5,7 @@
 int main() {
     // make sure to run your functions!
     
-    // Begin section for testing MatchVectors function
+    // Begin section for Matt and Paul's testing MatchVectors function
     std::vector<int> a;
     std::vector<int> b;
     std::vector<int> c;
@@ -29,5 +29,5 @@ int main() {
         std::cout << c[z] << " ";
     }
     std::cout << std::endl;
-    // End section of testing MatchVectors
+    // End section of testing Matt and Paul's MatchVectors
 }
