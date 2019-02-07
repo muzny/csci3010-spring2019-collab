@@ -1,4 +1,5 @@
 #include "ManyFunctions.h"
+#include <vector>
 
 std::vector<int> SquareUntil(int n)
 {
