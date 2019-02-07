@@ -18,5 +18,10 @@
 */
 //int Sum(int num1, int num2);
 
+/**
+	
+*/
+std::string RemoveAllSubstrings(std::string s1, std::string s2);
+
 
 #endif // _MANYFUNCTIONS_H_
