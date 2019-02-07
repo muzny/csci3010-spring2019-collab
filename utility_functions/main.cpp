@@ -1,5 +1,6 @@
 #include "ManyFunctions.h"
 
-int main() {
+int main() 
+{
     // make sure to run your functions!
 }
