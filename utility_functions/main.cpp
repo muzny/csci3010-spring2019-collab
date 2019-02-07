@@ -1,6 +1,7 @@
 #include "ManyFunctions.h"
 
-int main() {
+int main() 
+{
     // make sure to run your functions!
 	
 	int SquaresUntil_Test1 = 1;
