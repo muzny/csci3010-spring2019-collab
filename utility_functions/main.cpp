@@ -8,4 +8,8 @@ int main() {
 
     vector<int> test_vector2 = MultiplesFilter(test_vector, 2);
 
+    for(int i = 0; i < test_vector2.size(); i++)
+    {
+    	cout << test_vector2[i] << endl;
+    }
 }

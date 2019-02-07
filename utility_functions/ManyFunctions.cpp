@@ -8,7 +8,8 @@ vector<int> MultiplesFilter(vector<int> v, int divides_by)
 	{
 		if((v[i] % divides_by == 0) && (v[i] != 0))
 		{
-			v.erase(i);
+			v.erase(v.begin() + i);
+			i--;
 		}
 	}
 	return v;
