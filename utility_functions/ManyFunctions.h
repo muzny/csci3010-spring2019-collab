@@ -19,7 +19,10 @@
 //int Sum(int num1, int num2);
 
 /**
-	
+	Removes substring s2 from s1.
+	@param s1 The string being removed from
+	@param s2 The string we are removing
+	@return s1 after removal
 */
 std::string RemoveAllSubstrings(std::string s1, std::string s2);
 
