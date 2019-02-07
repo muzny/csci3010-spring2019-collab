@@ -18,5 +18,7 @@
 */
 //int Sum(int num1, int num2);
 
+int Product(std::vector<int> nums);
+
 
 #endif // _MANYFUNCTIONS_H_
