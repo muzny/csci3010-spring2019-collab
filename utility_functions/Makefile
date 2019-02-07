@@ -7,7 +7,7 @@ all: main
 clean:
 	rm main ManyFunctions.o
 
-test: ManyFunctions.o main.cpp
+main: ManyFunctions.o main.cpp
 	$(CXX) $(CXXFLAGS) main.cpp ManyFunctions.o -o main
 
 ManyFunctions.o: ManyFunctions.cpp
