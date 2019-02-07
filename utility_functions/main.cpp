@@ -1,5 +1,5 @@
 #include "ManyFunctions.h"
-
+#include <iostream>
 int main() {
-    // make sure to run your functions!
+   std::cout << NthFibonacci(7) << std::endl;
 }
