@@ -5,6 +5,7 @@
 int main() {
     // make sure to run your functions!
     
+    // Begin section for testing MatchVectors function
     std::vector<int> a;
     std::vector<int> b;
     std::vector<int> c;
@@ -19,8 +20,14 @@ int main() {
 
     c = MatchVectors(a, b);
 
+    // Prints the result of testing MatchVectors.
+    // This should print only the odd numbers between 0 and 10,
+    // since all of the even numbers should have been removed
+    // by calling MatchVectors.
     for (unsigned int z = 0; z < c.size(); z++)
     {
-        std::cout << c[z] << " " << std::endl;
+        std::cout << c[z] << " ";
     }
+    std::cout << std::endl;
+    // End section of testing MatchVectors
 }
