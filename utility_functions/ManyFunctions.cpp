@@ -9,7 +9,7 @@ int Product(std::vector<int> nums)
 	// Initialize the product to 1.
 	int prod = 1;
 	// Iterate over entire vector.
-	for(int i = 0; i < nums.size(); i++)
+	for(unsigned i = 0; i < nums.size(); i++)
 	{
 		// Multiply current product by next value in vector.
 		prod = prod * nums[i];
