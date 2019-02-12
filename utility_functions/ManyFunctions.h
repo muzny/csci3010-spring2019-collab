@@ -1,3 +1,4 @@
+
 #ifndef _MANYFUNCTIONS_H_
 #define _MANYFUNCTIONS_H_
 
@@ -21,6 +22,7 @@ using namespace std;
 */
 //int Sum(int num1, int num2);
 
+std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
 
 vector<int> MultiplesFilter(vector<int> v, int divides_by);
 

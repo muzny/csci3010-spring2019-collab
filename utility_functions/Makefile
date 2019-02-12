@@ -2,10 +2,13 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall
 CXXGDB = -ggdb
 
-all: main
+all: main test
 
 clean:
-	rm main ManyFunctions.o
+	rm main test ManyFunctions.o
+
+test: ManyFunctions.o test.cpp
+	$(CXX) $(CXXFLAGS) test.cpp ManyFunctions.o -o test
 
 main: ManyFunctions.o main.cpp
 	$(CXX) $(CXXFLAGS) main.cpp ManyFunctions.o -o main
