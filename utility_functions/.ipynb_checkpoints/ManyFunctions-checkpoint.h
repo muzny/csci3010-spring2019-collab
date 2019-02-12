@@ -18,7 +18,7 @@
 */
 //int Sum(int num1, int num2);
 
-std::vector<int> Multiples(int n,int m);
 
+std::vector<int> Multiples(int n,int m);
 
 #endif // _MANYFUNCTIONS_H_
