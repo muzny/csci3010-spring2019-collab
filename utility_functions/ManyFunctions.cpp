@@ -1,6 +1,10 @@
 #include "ManyFunctions.h"
 #include <vector>
 
+int RemoveTwos(int original)
+{
+    return (original % 2 == 1) ? original : RemoveTwos(original / 2);
+}
 
 /**
 	Takes in two vectors and removes all occurrences of elements in the second
