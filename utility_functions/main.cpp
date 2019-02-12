@@ -7,10 +7,16 @@
  */
 void TestReturnTwos();
 
-#include <vector>
-#include <iostream>
 int main() {
     // make sure to run your functions!
+  
+    std::cout << "Testing RemoveAllSubstrings" << std::endl;
+    std::cout << RemoveAllSubstrings("Banana", "nana") << std::endl;
+    std::cout<<RemoveAllSubstrings("This is a this is a string", "is")<<std::endl;
+    std::cout<<RemoveAllSubstrings("", "")<<std::endl;
+    std::cout<<RemoveAllSubstrings("blah", "very blah")<<std::endl;
+    std::cout<<"Program terminated successfully"<<std::endl;
+
     TestReturnTwos();
 
     // Begin section for Matt and Paul's testing MatchVectors function
