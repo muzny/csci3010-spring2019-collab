@@ -1,3 +1,4 @@
+
 #ifndef _MANYFUNCTIONS_H_
 #define _MANYFUNCTIONS_H_
 
@@ -19,6 +20,20 @@
 //int Sum(int num1, int num2);
 
 
+
 std::vector<int> VectorTimesN(std::vector<int> v, int n);
+/**
+	Removes substring s2 from s1.
+	@param s1 The string being removed from
+	@param s2 The string we are removing
+	@return s1 after removal
+*/
+std::string RemoveAllSubstrings(std::string s1, std::string s2);
+
+// divides an input integer by 2 until it is impossible to do so, then returns the final number
+// (16 = 2 * 2 * 2 * 2 * 1 -> 1, 7 -> 7, 26 = 2 * 13 -> 13, 52 = 2 * 2 * 13 ->)
+int RemoveTwos(int original);
+
+std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
 
 #endif // _MANYFUNCTIONS_H_
