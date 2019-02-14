@@ -20,6 +20,8 @@
 //int Sum(int num1, int num2);
 
 
+
+std::vector<int> VectorTimesN(std::vector<int> v, int n);
 /**
 	Removes substring s2 from s1.
 	@param s1 The string being removed from
@@ -33,6 +35,5 @@ std::string RemoveAllSubstrings(std::string s1, std::string s2);
 int RemoveTwos(int original);
 
 std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
-
 
 #endif // _MANYFUNCTIONS_H_
