@@ -1,5 +1,4 @@
 #include "ManyFunctions.h"
-#include <vector>
 
 std::vector<bool> EvenMask(std::vector<int> bit){
 	std::vector<bool> result;

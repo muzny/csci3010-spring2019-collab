@@ -17,6 +17,14 @@
     @return the sum of the two numbers
 */
 //int Sum(int num1, int num2);
+
+/*
+    Convert an int vector to a boolean vector. 
+    Convert even integer to true and odd integer to false.
+    
+    @param bit An int vector
+    @return a boolean vector
+*/
 std::vector<bool> EvenMask(std::vector<int> bit);
 
 #endif // _MANYFUNCTIONS_H_

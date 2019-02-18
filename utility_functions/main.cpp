@@ -2,18 +2,32 @@
 #include <iostream>
 
 int main() {
-    // make sure to run your functions!
-    std::vector<int> bit = {1,2,3,4,5,6};
-    std::vector<bool> b = EvenMask(bit);
-    for (int i = 0; i < b.size(); ++i)
+    std::cout<<"EvenMask:"<<std::endl;
+    std::vector<int> int_vector = {1,2,3,4,5,6};
+    std::vector<bool> boolean_vector = EvenMask(int_vector);
+    std::cout<<"convert ";
+    for (int i = 0; i < int_vector.size(); ++i)
     {
-    	std::cout<<b[i]<<std::endl;
+        std::cout<<int_vector[i]<<" ";
     }
-    //creadte a vector
-    std::vector<int> bit_1 = {8888,76757,4567,88890,67532};
-    std::vector<bool> b_1 = EvenMask(bit);
-    for (int i = 0; i < b_1.size(); ++i)
+    std::cout<<" into: ";
+    for (int i = 0; i < boolean_vector.size(); ++i)
     {
-    	std::cout<<b_1[i]<<std::endl;
+    	std::cout<<boolean_vector[i]<<" ";
     }
+    std::cout<<std::endl;
+    
+    std::vector<int> int_vector2 = {8888,76757,4567,88890,67532};
+    std::vector<bool> boolean_vector2 = EvenMask(int_vector2);
+    std::cout<<"convert ";
+    for (int i = 0; i < int_vector2.size(); ++i)
+    {
+        std::cout<<int_vector2[i]<<" ";
+    }
+    std::cout<<" into: ";
+    for (int i = 0; i < boolean_vector2.size(); ++i)
+    {
+        std::cout<<boolean_vector2[i]<<" ";
+    }
+    std::cout<<std::endl;
 }
