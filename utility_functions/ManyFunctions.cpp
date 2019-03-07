@@ -9,6 +9,14 @@ int Sign(int num) {
   return num < 0 ? -1 : 1;
 }
 
+int NthFibonacci(int n){
+	if (n <= 1){
+		return n;
+	} 
+    return NthFibonacci(n-1) + NthFibonacci(n-2); 
+	
+}
+
 std::vector<int> VectorTimesN(std::vector<int> v, int n){
 	for (int i = 0; i < v.size(); i++){
 		v[i] *= n;

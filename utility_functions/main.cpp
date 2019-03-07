@@ -1,4 +1,5 @@
 #include "ManyFunctions.h"
+#include <iostream>
 #include <vector>
 #include <iostream>
 
@@ -19,7 +20,8 @@ void TestReturnTwos();
 
 int main() {
     // make sure to run your functions!
-  
+    std::cout <<"7th fibonacci Number"<<std::endl;
+    std::cout << NthFibonacci(7) << std::endl;
     std::cout << "Testing RemoveAllSubstrings" << std::endl;
     std::cout << RemoveAllSubstrings("Banana", "nana") << std::endl;
     std::cout<<RemoveAllSubstrings("This is a this is a string", "is")<<std::endl;
@@ -69,4 +71,5 @@ void TestReturnTwos()
     std::cout << seven << " -> " << RemoveTwos(seven) << std::endl;
     std::cout << twenty_six << " -> " << RemoveTwos(twenty_six) << std::endl;
     std::cout << fifty_two << " -> " << RemoveTwos(fifty_two) << std::endl;
+
 }
