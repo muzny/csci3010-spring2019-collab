@@ -1,3 +1,4 @@
+
 #ifndef _MANYFUNCTIONS_H_
 #define _MANYFUNCTIONS_H_
 
@@ -19,5 +20,6 @@
 int Sum(int num1, int num2);
 std::vector<int> VectorPlusN(std::vector<int> v, int n);
 
+std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
 
 #endif // _MANYFUNCTIONS_H_
