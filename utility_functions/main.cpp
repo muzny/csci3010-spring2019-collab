@@ -1,4 +1,5 @@
 #include "ManyFunctions.h"
+
 #include <iostream>
 #include <vector>
 #include <iostream>
@@ -65,6 +66,20 @@ int main() {
     }
     std::cout << std::endl;
     // End section of testing Matt and Paul's MatchVectors
+
+
+#include <vector>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    string jumble = "hello//and//world";
+    vector<string> words = ManyFunctions.Split(jumble, "//");
+	for(int i = 0; i < words.size(); i++){
+		cout << words.at(i) << endl;
+	}
 
 }
 

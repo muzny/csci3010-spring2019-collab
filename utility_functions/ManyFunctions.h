@@ -5,6 +5,7 @@
 #include <vector>
 #include <string>
 
+
 // CSCI 3010 - Fall 2018
 // declare your function definitions here
 // they should not be inside of a class
@@ -43,6 +44,17 @@ std::string RemoveAllSubstrings(std::string s1, std::string s2);
 int RemoveTwos(int original);
 
 
+
 std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
+
+class ManyFunction {
+	public:
+		std::vector<string> Split(std::string word, std::string delimeter);
+	
+	private:
+		std::vector<string> words;
+}
+
+
 
 #endif // _MANYFUNCTIONS_H_
