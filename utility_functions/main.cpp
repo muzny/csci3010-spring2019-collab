@@ -1,5 +1,6 @@
 #include "ManyFunctions.h"
 #include <string>
+#include <iostream>
 #include <vector>
 #include <iostream>
 
@@ -84,4 +85,5 @@ void TestReturnTwos()
     std::cout << seven << " -> " << RemoveTwos(seven) << std::endl;
     std::cout << twenty_six << " -> " << RemoveTwos(twenty_six) << std::endl;
     std::cout << fifty_two << " -> " << RemoveTwos(fifty_two) << std::endl;
+
 }
