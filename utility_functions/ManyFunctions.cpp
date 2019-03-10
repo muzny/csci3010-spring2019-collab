@@ -17,6 +17,15 @@ std::string RemoveFirstSubstring(std::string s1, std::string s2){
 }
 
 
+int NthFibonacci(int n){
+	if (n <= 1){
+		return n;
+	} 
+    return NthFibonacci(n-1) + NthFibonacci(n-2); 
+	
+}
+
+
 std::vector<int> VectorTimesN(std::vector<int> v, int n){
 	for (int i = 0; i < v.size(); i++){
 		v[i] *= n;
