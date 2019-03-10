@@ -1,10 +1,5 @@
 #include "ManyFunctions.h"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #include <string>
->>>>>>> master
-#include <iostream>
 #include <vector>
 #include <iostream>
 
@@ -89,20 +84,4 @@ void TestReturnTwos()
     std::cout << seven << " -> " << RemoveTwos(seven) << std::endl;
     std::cout << twenty_six << " -> " << RemoveTwos(twenty_six) << std::endl;
     std::cout << fifty_two << " -> " << RemoveTwos(fifty_two) << std::endl;
-
-=======
-#include<vector>
-#include<iostream>
-
-int main() {
-    // make sure to run your functions!
-	std::string a_ = "Hello";
-	std::string b_ = "World";
-	std::string glue_ = " ";
-	
-	std::vector<std::string> string_set_;
-	string_set_.push_back(a_);
-	string_set_.push_back(b_);
-	std::cout<<Join(string_set_, glue_)<<std::endl;
->>>>>>> ed131db16ce443e323283d9efd2f5a4fe22ced24
 }
