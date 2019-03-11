@@ -16,3 +16,4 @@ int main() {
     for (int i = 0 ; i < myvec.size(); i++) {
         cout << myvec[i] << endl;
     }
+}

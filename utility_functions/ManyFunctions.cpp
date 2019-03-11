@@ -13,3 +13,4 @@ std::vector<int> Multiples(int n,int m){
     }
     
     return v;
+}

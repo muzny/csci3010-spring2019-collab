@@ -21,3 +21,4 @@
 
     
 std::vector<int> Multiples(int n,int m);
+#endif
