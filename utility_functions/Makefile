@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS	= -std=c++11 -Wall
+CXXFLAG	= -std=c++11 -Wall
 CXXGDB = -ggdb
 
 all: main test
