@@ -30,6 +30,7 @@ int Sum(std::vector<int>);
     @param s2 second string to remove s1 from if present
     @return string
 */
+
 std::string RemoveFirstSubstring(std::string s1, std::string s2);
 
 /*
