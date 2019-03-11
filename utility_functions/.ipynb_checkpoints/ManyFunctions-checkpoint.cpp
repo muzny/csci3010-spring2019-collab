@@ -1,4 +1,7 @@
 #include "ManyFunctions.h"
+#include <string>
+#include <vector>
+#include <iostream>
 
 
 std::vector<int> Multiples(int n,int m){
@@ -13,4 +16,4 @@ std::vector<int> Multiples(int n,int m){
     return v;
 }
 
-
+#ifndef _MANYFUNCTIONS_H_
