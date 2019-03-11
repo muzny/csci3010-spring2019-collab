@@ -5,6 +5,8 @@
 #include <vector>
 #include <string>
 
+
+std::string Join(std::vector<std::string> pieces, std::string glue);
 // CSCI 3010 - Fall 2018
 // declare your function definitions here
 // they should not be inside of a class
@@ -22,12 +24,21 @@ int Sum(int num1, int num2);
 std::vector<int> VectorPlusN(std::vector<int> v, int n);
 
 //int Sum(int num1, int num2);
+
+/**
+    Return string with removed first instance of s1 from s2
+    @param s1 first string to find in s2
+    @param s2 second string to remove s1 from if present
+    @return string
+*/
+std::string RemoveFirstSubstring(std::string s1, std::string s2);
+
 /*
 	takes an int, n, and returns the nth value of the fibonacci sequence
 */
 int NthFibonacci(int n);
 
-
+int Sign(int num);
 
 std::vector<int> VectorTimesN(std::vector<int> v, int n);
 /**

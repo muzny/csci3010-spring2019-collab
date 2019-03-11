@@ -1,5 +1,7 @@
 #include "ManyFunctions.h"
+#include <string>
 #include <vector>
+
 int Sum(int num1, int num2){
 	return num1+num2;
 }
@@ -10,6 +12,30 @@ std::vector<int> VectorPlusN(std::vector<int>v, int n){
 	}
 
 	return v;
+
+#include <iostream>
+
+/**
+    Removes first occurrence of string from another string
+    @param s1 First string to find in s2
+    @param s2 Second string to delete s1 in if found
+    @return The new string that is result of removing the first occurrence of s1 from s2
+*/
+std::string RemoveFirstSubstring(std::string s1, std::string s2){
+	
+	std::size_t position = s2.find(s1);		
+	s2.replace(position, s1.length(), "");
+	return s2;	
+}
+
+
+int Sign(int num) {
+  if (num == 0) {
+    return 0;
+  }
+
+  return num < 0 ? -1 : 1;
+
 }
 
 int NthFibonacci(int n){
@@ -19,7 +45,6 @@ int NthFibonacci(int n){
     return NthFibonacci(n-1) + NthFibonacci(n-2); 
 	
 }
-
 
 std::vector<int> VectorTimesN(std::vector<int> v, int n){
 	for (int i = 0; i < v.size(); i++){
