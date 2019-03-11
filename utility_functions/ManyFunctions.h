@@ -24,6 +24,9 @@ std::string Join(std::vector<std::string> pieces, std::string glue);
 //Sums all the numbers in a vector and returns the resulting value
 int Sum(std::vector<int>);
 
+// Return the product of all integers in a vector.
+int Product(std::vector<int> nums)
+  
 /**
     Return string with removed first instance of s1 from s2
     @param s1 first string to find in s2
@@ -52,6 +55,6 @@ std::string RemoveAllSubstrings(std::string s1, std::string s2);
 // (16 = 2 * 2 * 2 * 2 * 1 -> 1, 7 -> 7, 26 = 2 * 13 -> 13, 52 = 2 * 2 * 13 ->)
 int RemoveTwos(int original);
 
-std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
+std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b)
 
 #endif // _MANYFUNCTIONS_H_
