@@ -105,12 +105,12 @@ std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b)
 
 class ManyFunctions {
 	
-	vector<string> ManyFunctions::Split(string whole, string seperator){
-	    vector<string> words;
+	vector<std::string> ManyFunctions::Split(std::string whole, std::string seperator){
+	    vector<std::string> words;
 
 		size_t pos = 0;
 		std::string token;
-		while ((pos = whole.find(seperator)) != std::string::npos) {
+		while ((pos = whole.find(seperator)) != std::string::pos) {
 			token = whole.substr(0, pos);
 			whole.erase(0, pos + seperator.length());
 			words.push_back(token);
