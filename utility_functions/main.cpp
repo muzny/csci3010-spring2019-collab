@@ -96,5 +96,4 @@ void TestReturnTwos()
     std::cout << seven << " -> " << RemoveTwos(seven) << std::endl;
     std::cout << twenty_six << " -> " << RemoveTwos(twenty_six) << std::endl;
     std::cout << fifty_two << " -> " << RemoveTwos(fifty_two) << std::endl;
->>>>>>> master
 }
