@@ -1,4 +1,5 @@
 #include "ManyFunctions.h"
+
 #include <string>
 #include <vector>
 #include <iostream>
@@ -71,6 +72,16 @@ int main() {
     }
     std::cout << std::endl;
     // End section of testing Matt and Paul's MatchVectors
+
+    // make sure to run your functions!
+   
+    std::vector<int> numbers;
+    numbers.push_back(1);
+    numbers.push_back(23);
+    numbers.push_back(7);
+
+
+    std::cout << "The sum is " << Sum(numbers) << std::endl;
   
     // Beginning of tests for Adam, Ash and Thomas' Product function
     // Initial test case for product.

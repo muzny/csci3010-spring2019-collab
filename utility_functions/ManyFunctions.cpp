@@ -16,6 +16,14 @@ std::string RemoveFirstSubstring(std::string s1, std::string s2){
 	return s2;	
 }
 
+int Sum(std::vector<int> nums){
+	int sum = 0;
+	for(int i = 0; i < nums.size(); i++){
+		sum += nums[i];
+	}
+	return sum;
+}
+
 
 int Sign(int num) {
   if (num == 0) {
