@@ -6,12 +6,14 @@ all: main test
 
 clean:
 	rm main test ManyFunctions.o
-
+    
+main: ManyFunctions.o main.cpp
+	$(CXX) $(CXXFLAGS) main.cpp ManyFunctions.o -o main
+    
 test: ManyFunctions.o test.cpp catch.hpp
 	$(CXX) $(CXXFLAGS) test.cpp ManyFunctions.o -o test
 
-main: ManyFunctions.o main.cpp
-	$(CXX) $(CXXFLAGS) main.cpp ManyFunctions.o -o main
+
 
 ManyFunctions.o: ManyFunctions.cpp
 	$(CXX) $(CXXFLAGS) -c ManyFunctions.cpp
