@@ -1,4 +1,9 @@
 #include "ManyFunctions.h"
+
+=======
+
+#include <string>
+#include <vector>
 #include <iostream>
 using namespace std;
 int main() {
@@ -11,4 +16,3 @@ int main() {
     for (int i = 0 ; i < myvec.size(); i++) {
         cout << myvec[i] << endl;
     }
-}

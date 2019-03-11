@@ -3,7 +3,6 @@
 #include <vector>
 #include <iostream>
 
-
 std::vector<int> Multiples(int n,int m){
     
     std::vector <int> v;
@@ -14,5 +13,3 @@ std::vector<int> Multiples(int n,int m){
     }
     
     return v;
-}
-
