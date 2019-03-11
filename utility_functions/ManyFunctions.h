@@ -34,6 +34,7 @@ std::string RemoveFirstSubstring(std::string s1, std::string s2);
 */
 int NthFibonacci(int n);
 
+int Sign(int num);
 
 std::vector<int> VectorTimesN(std::vector<int> v, int n);
 /**
