@@ -1,6 +1,5 @@
 #include "ManyFunctions.h"
 
-=======
 
 #include <string>
 #include <vector>
