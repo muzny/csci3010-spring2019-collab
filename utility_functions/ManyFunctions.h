@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 
+
 // CSCI 3010 - Fall 2018
 // declare your function definitions here
 // they should not be inside of a class
@@ -18,7 +19,4 @@
 */
 //int Sum(int num1, int num2);
 
-
 std::vector<int> Multiples(int n,int m);
-
-#endif // _MANYFUNCTIONS_H_
