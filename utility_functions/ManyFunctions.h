@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <string>
+#include <iostream>
 
 // CSCI 3010 - Fall 2018
 // declare your function definitions here
@@ -18,7 +19,6 @@
 */
 //int Sum(int num1, int num2);
 
-std::vector<int> SqaureUntil(int n);
-
+int SquareUntil(std::vector<int> Square,int n);
 
 #endif // _MANYFUNCTIONS_H_
