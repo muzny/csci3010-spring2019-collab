@@ -33,6 +33,21 @@ int NthFibonacci(int n){
 	
 }
 
+// Multiplies all numbers in a vector together and returns the resulting value
+int Product(std::vector<int> nums)
+{
+	// Initialize the product to 1.
+	int prod = 1;
+	// Iterate over entire vector.
+	for(unsigned i = 0; i < nums.size(); i++)
+	{
+		// Multiply current product by next value in vector.
+		prod = prod * nums[i];
+	}
+	// Return the final product.
+	return(prod);
+}
+
 std::vector<int> VectorTimesN(std::vector<int> v, int n){
 	for (int i = 0; i < v.size(); i++){
 		v[i] *= n;
