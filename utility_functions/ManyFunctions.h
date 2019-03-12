@@ -1,4 +1,3 @@
-
 #ifndef _MANYFUNCTIONS_H_
 #define _MANYFUNCTIONS_H_
 
@@ -36,7 +35,7 @@ int Sum(std::vector<int>);
 
 // Return the product of all integers in a vector.
 int Product(std::vector<int> nums);
-  
+
 /**
     Return string with removed first instance of s1 from s2
     @param s1 first string to find in s2
@@ -68,6 +67,14 @@ int RemoveTwos(int original);
 
 std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
 
+
+// Function takes a string to split and a string delimiter
+// to define where the splits should occur. The function splits
+// the sent string at the delimiter. The function returns
+// a vector of the strings resulting from the split.
+std::vector<std::string> Split(std::string whole, std::string seperator);
+
 vector<int> MultiplesFilter(vector<int> v, int divides_by);
+
 
 #endif // _MANYFUNCTIONS_H_
