@@ -26,16 +26,28 @@ void TestRemoveFirstSubstring(){
 }
 /**
  * @brief Test the ReturnTwos function to verify matches given cases in header
- * 
+ *
  */
 void TestReturnTwos();
 
 int main() {
     // make sure to run your functions!
+
+    // Tyler and Mohamed Split() test
+    std::string jumble = "hello//and//world";
+    std::vector<std::string> words = Split(jumble, "/");
+    std::cout << "\nString to split: 'hello/and/world'" << std::endl;
+    std::cout << "Delimiter: '//'" << std::endl;
+    std::cout << "Result: " << std::endl;
+    for(int i = 0; i < words.size(); i++){
+      std::cout << words.at(i) << std::endl;
+    }
+    std::cout << std::endl;
+
     //Vomund and Hempy Sign Tests
     std::cout << Sign(-3) << std::endl;
     std::cout << Sign(10000) << std::endl;
-    
+
     std::cout <<"7th fibonacci Number"<<std::endl;
     std::cout << NthFibonacci(7) << std::endl;
     std::cout << "Testing RemoveAllSubstrings" << std::endl;
@@ -47,8 +59,13 @@ int main() {
 
     TestReturnTwos();
 
+
+	
+
+
 	  testVectorTimesN();
   
+
     TestRemoveFirstSubstring();
 
     // Begin section for Matt and Paul's testing MatchVectors function
@@ -89,7 +106,7 @@ int main() {
 
 
     // make sure to run your functions!
-   
+
     std::vector<int> numbers;
     numbers.push_back(1);
     numbers.push_back(23);
@@ -97,7 +114,7 @@ int main() {
 
 
     std::cout << "The sum is " << Sum(numbers) << std::endl;
-  
+
     // Beginning of tests for Adam, Ash and Thomas' Product function
     // Initial test case for product.
     std::vector<int> test1;

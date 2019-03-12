@@ -26,10 +26,10 @@ int Sign(int num){
     @return The new string that is result of removing the first occurrence of s1 from s2
 */
 std::string RemoveFirstSubstring(std::string s1, std::string s2){
-	
-	std::size_t position = s2.find(s1);		
+
+	std::size_t position = s2.find(s1);
 	s2.replace(position, s1.length(), "");
-	return s2;	
+	return s2;
 }
 
 int Sum(std::vector<int> nums){
@@ -43,9 +43,9 @@ int Sum(std::vector<int> nums){
 int NthFibonacci(int n){
 	if (n <= 1){
 		return n;
-	} 
-    return NthFibonacci(n-1) + NthFibonacci(n-2); 
-	
+	}
+    return NthFibonacci(n-1) + NthFibonacci(n-2);
+
 }
 
 // Multiplies all numbers in a vector together and returns the resulting value
@@ -91,10 +91,8 @@ int RemoveTwos(int original)
 /**
 	Takes in two vectors and removes all occurrences of elements in the second
 	vector from the first vector.
-
 	@param a The vector to remove elements from.
 	@param b The vector to filter elements in a based upon.
-
 	@return The vector a, but with all of the elements that were in common
 	between a and b removed.
 */
@@ -111,8 +109,36 @@ std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b)
 		}
 	}
 	return a;
-  
+
 }
+
+// By: Tyler Benson, Mohamed Abdalla
+/*
+	This function takes a string that needs to be split
+	and another string for the delimiter to split upon
+	The function steps through sent string looking for the
+	dilemeter string. When the dilemeter is found, the substring
+	is copied, then erased from the sent string, then the copy
+	is added to a vector of strings. The function returns the vector
+	of resulting strings from the split.
+*/
+std::vector<std::string> Split(std::string whole, std::string seperator)
+{
+	std::vector<std::string> words;
+	size_t pos = 0;
+	std::string token;
+	whole = whole + seperator;
+	while ((pos = whole.find(seperator)) != std::string::npos)
+	{
+		token = whole.substr(0, pos);
+		whole.erase(0, pos + seperator.length() + 1);
+		words.push_back(token);
+	}
+	return words;
+}
+
+
+
 
 std::vector<int> MultiplesFilter(std::vector<int> v, int divides_by)
 {
@@ -126,7 +152,3 @@ std::vector<int> MultiplesFilter(std::vector<int> v, int divides_by)
 	}
 	return v;
 }
-
-
-}
-
