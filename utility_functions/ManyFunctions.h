@@ -1,4 +1,3 @@
-
 #ifndef _MANYFUNCTIONS_H_
 #define _MANYFUNCTIONS_H_
 
