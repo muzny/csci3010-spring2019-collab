@@ -7,7 +7,6 @@
 
 using namespace std;
 
-
 std::string Join(std::vector<std::string> pieces, std::string glue);
 // CSCI 3010 - Fall 2018
 // declare your function definitions here
@@ -42,7 +41,6 @@ int Product(std::vector<int> nums);
     @param s2 second string to remove s1 from if present
     @return string
 */
-
 std::string RemoveFirstSubstring(std::string s1, std::string s2);
 
 /*
@@ -67,7 +65,6 @@ int RemoveTwos(int original);
 
 std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
 
-
 // Function takes a string to split and a string delimiter
 // to define where the splits should occur. The function splits
 // the sent string at the delimiter. The function returns
@@ -75,6 +72,5 @@ std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
 std::vector<std::string> Split(std::string whole, std::string seperator);
 
 vector<int> MultiplesFilter(vector<int> v, int divides_by);
-
 
 #endif // _MANYFUNCTIONS_H_

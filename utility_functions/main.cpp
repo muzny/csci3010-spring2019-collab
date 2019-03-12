@@ -52,7 +52,7 @@ int main() {
       std::cout << i << " ";
     }
     std::cout << "\n" << std::endl;
-  
+
     // make sure to run your functions!
 
     // Tyler and Mohamed Split() test
@@ -80,14 +80,7 @@ int main() {
     std::cout<<"Program terminated successfully"<<std::endl;
 
     TestReturnTwos();
-
-
-	
-
-
 	  testVectorTimesN();
-  
-
     TestRemoveFirstSubstring();
 
     // Begin section for Matt and Paul's testing MatchVectors function
@@ -116,7 +109,7 @@ int main() {
     std::cout << std::endl;
     // End section of testing Matt and Paul's MatchVectors
 
-    
+
     std::vector<int> test_vector{2, 4, 5, 7, 9, 10, 11, 12};
 
     std::vector<int> test_vector2 = MultiplesFilter(test_vector, 2);

@@ -130,6 +130,7 @@ std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b)
 		}
 	}
 	return a;
+}
 
 // By: Tyler Benson, Mohamed Abdalla
 /*
@@ -168,4 +169,3 @@ std::vector<int> MultiplesFilter(std::vector<int> v, int divides_by)
 	}
 	return v;
 }
-
