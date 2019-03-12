@@ -69,7 +69,7 @@ int main() {
 
     TestReturnTwos();
 
-	testVectorTimesN();
+	  testVectorTimesN();
   
     TestRemoveFirstSubstring();
 
@@ -98,6 +98,17 @@ int main() {
     }
     std::cout << std::endl;
     // End section of testing Matt and Paul's MatchVectors
+
+    
+    std::vector<int> test_vector{2, 4, 5, 7, 9, 10, 11, 12};
+
+    std::vector<int> test_vector2 = MultiplesFilter(test_vector, 2);
+
+    for(int i = 0; i < test_vector2.size(); i++)
+    {
+    	std::cout << test_vector2[i] << std::endl;
+    }
+
 
     // make sure to run your functions!
    
