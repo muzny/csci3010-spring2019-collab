@@ -109,6 +109,7 @@ std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b)
 		}
 	}
 	return a;
+
 }
 
 // By: Tyler Benson, Mohamed Abdalla
@@ -134,4 +135,20 @@ std::vector<std::string> Split(std::string whole, std::string seperator)
 		words.push_back(token);
 	}
 	return words;
+}
+
+
+
+
+std::vector<int> MultiplesFilter(std::vector<int> v, int divides_by)
+{
+	for(int i = 0; i < v.size(); i++)
+	{
+		if((v[i] % divides_by == 0) && (v[i] != 0))
+		{
+			v.erase(v.begin() + i);
+			i--;
+		}
+	}
+	return v;
 }
