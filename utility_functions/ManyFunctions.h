@@ -6,6 +6,7 @@
 
 using namespace std;
 
+
 std::string Join(std::vector<std::string> pieces, std::string glue);
 // CSCI 3010 - Fall 2018
 // declare your function definitions here
