@@ -4,6 +4,9 @@
 
 #include <vector>
 #include <string>
+#include <iostream>
+
+using namespace std;
 
 
 std::string Join(std::vector<std::string> pieces, std::string glue);
@@ -58,5 +61,7 @@ std::string RemoveAllSubstrings(std::string s1, std::string s2);
 int RemoveTwos(int original);
 
 std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
+
+vector<int> MultiplesFilter(vector<int> v, int divides_by);
 
 #endif // _MANYFUNCTIONS_H_
