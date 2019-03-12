@@ -1,5 +1,60 @@
 #include "ManyFunctions.h"
+#include <string>
 #include <vector>
+#include <iostream>
+
+/**
+    Removes first occurrence of string from another string
+    @param s1 First string to find in s2
+    @param s2 Second string to delete s1 in if found
+    @return The new string that is result of removing the first occurrence of s1 from s2
+*/
+std::string RemoveFirstSubstring(std::string s1, std::string s2){
+	
+	std::size_t position = s2.find(s1);		
+	s2.replace(position, s1.length(), "");
+	return s2;	
+}
+
+int Sum(std::vector<int> nums){
+	int sum = 0;
+	for(int i = 0; i < nums.size(); i++){
+		sum += nums[i];
+	}
+	return sum;
+}
+
+
+int Sign(int num) {
+  if (num == 0) {
+    return 0;
+  }
+
+  return num < 0 ? -1 : 1;
+}
+
+int NthFibonacci(int n){
+	if (n <= 1){
+		return n;
+	} 
+    return NthFibonacci(n-1) + NthFibonacci(n-2); 
+	
+}
+
+// Multiplies all numbers in a vector together and returns the resulting value
+int Product(std::vector<int> nums)
+{
+	// Initialize the product to 1.
+	int prod = 1;
+	// Iterate over entire vector.
+	for(unsigned i = 0; i < nums.size(); i++)
+	{
+		// Multiply current product by next value in vector.
+		prod = prod * nums[i];
+	}
+	// Return the final product.
+	return(prod);
+}
 
 std::vector<bool> EvenMask(std::vector<int> bit){
 	std::vector<bool> result;

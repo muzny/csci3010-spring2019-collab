@@ -1,4 +1,6 @@
 #include "ManyFunctions.h"
+
+#include <string>
 #include <iostream>
 #include <vector>
 
@@ -12,7 +14,18 @@ void testVectorTimesN() {
 	}
 	std::cout << std::endl;
 }
-
+/**
+    Jasmine R. Elizabeth Q. Allen K.
+    This program returns a string with the first instance of a string removed
+    from another string if present
+**/
+void TestRemoveFirstSubstring(){
+     std::string old_string = "How are you?";
+    std::string find_string = "are";
+    std::cout<<"String before removal: "<<old_string<<std::endl;
+    std::string new_string = RemoveFirstSubstring(find_string, old_string);
+    std::cout<<"String after removal: "<<new_string<<std::endl;
+}
 /**
  * @brief Test the ReturnTwos function to verify matches given cases in header
  * 
@@ -62,7 +75,8 @@ int main() {
     }
     std::cout<<std::endl;
     // make sure to run your functions!
-  
+    std::cout <<"7th fibonacci Number"<<std::endl;
+    std::cout << NthFibonacci(7) << std::endl;
     std::cout << "Testing RemoveAllSubstrings" << std::endl;
     std::cout << RemoveAllSubstrings("Banana", "nana") << std::endl;
     std::cout<<RemoveAllSubstrings("This is a this is a string", "is")<<std::endl;
@@ -72,7 +86,12 @@ int main() {
 
     TestReturnTwos();
 
+
     testVectorTimesN();
+
+  
+    TestRemoveFirstSubstring();
+
 
     // Begin section for Matt and Paul's testing MatchVectors function
     std::vector<int> a;
@@ -99,4 +118,37 @@ int main() {
     }
     std::cout << std::endl;
     // End section of testing Matt and Paul's MatchVectors
+
+    // make sure to run your functions!
+   
+    std::vector<int> numbers;
+    numbers.push_back(1);
+    numbers.push_back(23);
+    numbers.push_back(7);
+
+
+    std::cout << "The sum is " << Sum(numbers) << std::endl;
+  
+    // Beginning of tests for Adam, Ash and Thomas' Product function
+    // Initial test case for product.
+    std::vector<int> test1;
+    test1.push_back(3);
+    test1.push_back(7);
+    test1.push_back(5);
+    // Test case for negative numbers
+    std::vector<int> test2;
+    test2.push_back(-1);
+    test2.push_back(5);
+    // Test case for 0.
+    std::vector<int> test3;
+    test3.push_back(4);
+    test3.push_back(0);
+
+    // Should return 105
+    std::cout << Product(test1) << std::endl;
+    // Should return -5
+    std::cout << Product(test2) << std::endl;
+    // Should return 0
+    std::cout << Product(test3) << std::endl;
+    // End of tests for Adam, Ash and Thomas' Product Function
 }
