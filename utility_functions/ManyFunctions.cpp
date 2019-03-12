@@ -3,6 +3,22 @@
 #include <vector>
 #include <iostream>
 
+
+/*
+    Returns -1 if num is negative, 1 if it is positive.
+    @param num The number
+    @return -1 if negative, 1 if positive
+*/
+int Sign(int num){
+    if(num<0){
+        return -1;
+    }else if(num > 0){
+        return 1;
+    }else{
+        return 0;
+    }
+}
+
 /**
     Removes first occurrence of string from another string
     @param s1 First string to find in s2
@@ -22,15 +38,6 @@ int Sum(std::vector<int> nums){
 		sum += nums[i];
 	}
 	return sum;
-}
-
-
-int Sign(int num) {
-  if (num == 0) {
-    return 0;
-  }
-
-  return num < 0 ? -1 : 1;
 }
 
 int NthFibonacci(int n){

@@ -19,7 +19,8 @@ std::string Join(std::vector<std::string> pieces, std::string glue);
     @param num2 The second number
     @return the sum of the two numbers
 */
-//int Sum(int num1, int num2);
+
+int Sign(int num1);
 
 //Sums all the numbers in a vector and returns the resulting value
 int Sum(std::vector<int>);

@@ -1,4 +1,5 @@
 #include "ManyFunctions.h"
+#include <iostream>
 
 #include <string>
 #include <vector>
@@ -32,6 +33,10 @@ void TestReturnTwos();
 
 int main() {
     // make sure to run your functions!
+    //Vomund and Hempy Sign Tests
+    std::cout << Sign(-3) << std::endl;
+    std::cout << Sign(10000) << std::endl;
+    
     std::cout <<"7th fibonacci Number"<<std::endl;
     std::cout << NthFibonacci(7) << std::endl;
     std::cout << "Testing RemoveAllSubstrings" << std::endl;
