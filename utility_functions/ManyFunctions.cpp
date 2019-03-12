@@ -29,21 +29,3 @@ std::vector<std::string> Split(std::string whole, std::string seperator)
 	// words.push_back(whole);
 	return words;
 }
-
-// std::vector<std::string> Split(std::string whole, char seperator)
-// {
-// 	std::string temp_word;
-// 	std::vector<std::string> words;
-// 	int i;
-// 	whole = whole + seperator;
-// 	while (whole.length() != 0) {
-// 		std::cout << "FLAG" << std::endl;
-// 		i = 0;
-// 		if (whole[i] == seperator) {
-// 			temp_word = whole.substr(0, i);
-// 			whole.erase(0,i+1);
-// 			words.push_back(temp_word);
-// 		}
-// 	}
-// 	return words;
-// }
