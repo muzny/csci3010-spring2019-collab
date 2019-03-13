@@ -3,6 +3,27 @@
 #include <vector>
 #include <iostream>
 
+/**
+  Returns the sum of the two integers
+  @param integer num1, integer num2
+  @return sum of num1 + num2
+*/
+int Sum(int num1, int num2){
+	return num1 + num2;
+}
+
+/**
+  Adds n to all the elements in v.
+  @param vector v, integer to add n
+  @return vector v
+*/
+std::vector<int> VectorPlusN(std::vector<int>v, int n){
+	for(int i = 0; i < v.size(); i++){
+		v[i] = v[i] + n;
+	}
+
+	return v;
+}
 
 /*
     Returns -1 if num is negative, 1 if it is positive.
@@ -109,7 +130,6 @@ std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b)
 		}
 	}
 	return a;
-
 }
 
 // By: Tyler Benson, Mohamed Abdalla
@@ -136,9 +156,6 @@ std::vector<std::string> Split(std::string whole, std::string seperator)
 	}
 	return words;
 }
-
-
-
 
 std::vector<int> MultiplesFilter(std::vector<int> v, int divides_by)
 {

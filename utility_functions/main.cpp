@@ -1,5 +1,4 @@
 #include "ManyFunctions.h"
-
 #include <string>
 #include <vector>
 #include <iostream>
@@ -31,6 +30,29 @@ void TestRemoveFirstSubstring(){
 void TestReturnTwos();
 
 int main() {
+    // Jeff-Sabrina-Will
+    // Sum()
+    int x = 7;
+    int y = 10;
+    std::cout << x << " + " << y << " = " << Sum(x, y) << std::endl;
+
+    // VectorPlusN()
+    std::vector<int> v{1, 2, 3, 4};
+
+    std::cout << "v before call to VectorPlusN: ";
+    for(int i : v) {
+      std::cout << i << " ";
+    }
+    std::cout << "\n" << std::endl;
+
+    std::vector<int> returned_vector = VectorPlusN(v, 5);
+
+    std::cout << "v after call to VectorPlusN: ";
+    for(int i : returned_vector) {
+      std::cout << i << " ";
+    }
+    std::cout << "\n" << std::endl;
+
     // make sure to run your functions!
 
     // Tyler and Mohamed Split() test
@@ -58,14 +80,7 @@ int main() {
     std::cout<<"Program terminated successfully"<<std::endl;
 
     TestReturnTwos();
-
-
-	
-
-
 	  testVectorTimesN();
-  
-
     TestRemoveFirstSubstring();
 
     // Begin section for Matt and Paul's testing MatchVectors function
@@ -94,7 +109,7 @@ int main() {
     std::cout << std::endl;
     // End section of testing Matt and Paul's MatchVectors
 
-    
+
     std::vector<int> test_vector{2, 4, 5, 7, 9, 10, 11, 12};
 
     std::vector<int> test_vector2 = MultiplesFilter(test_vector, 2);
